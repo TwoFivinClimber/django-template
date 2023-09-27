@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations":[
+    {
+      "name": "Python: Django",
+      "request": "launch",
+      "type": "python",
+      "program": "django-server/manage.py",
+      "args": ["runserver"],
+      "django": true,
+      "autoReload": {"enable": true}
+    }
+  ]
+}

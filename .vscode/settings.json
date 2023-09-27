@@ -1,0 +1,7 @@
+{
+  "pylint.args": [
+    "--django-settings-module=server.settings",
+    "--load-plugins=pylint_django",
+    "--rcfile=./.pylintrc"
+  ]
+}
